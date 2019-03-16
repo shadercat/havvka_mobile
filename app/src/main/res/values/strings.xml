@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Havvka mobile</string>
+    <string name="Sign_in">Увійти</string>
+    <string name="Register">Зареєструватись</string>
+    <string name="Sign_in_guest">Увійти як гість</string>
+    <string name="Loading_text">Будь ласка, почекайте поки налаштуються наші милиці...</string>
+</resources>
