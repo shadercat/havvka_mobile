@@ -3,46 +3,123 @@
     android:id="@+id/activity_login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_anim">
-
+    android:background="@drawable/background_anim"
+    >
     <ImageView
+        android:id="@+id/activity_login_logo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:src="@drawable/havvka_logo"
         />
-    <Button
-        android:id="@+id/activity_login_sign_in"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        android:text="@string/Sign_in"
-        android:layout_above="@+id/activity_login_register"
-        android:layout_centerHorizontal="true"
-        />
-    <Button
-        android:id="@+id/activity_login_register"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/activity_login_guest"
-        android:layout_centerHorizontal="true"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        android:layout_marginTop="15dp"
-        android:text="@string/Register"
-        />
-    <Button
-        android:id="@+id/activity_login_guest"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        android:layout_marginTop="15dp"
-        android:text="@string/Sign_in_guest"
-        android:layout_marginBottom="100dp"
-        android:layout_alignParentBottom="true"
-        />
-</RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_login_ui"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+        <Button
+            android:id="@+id/activity_login_sign_in"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/Sign_in"
+            android:layout_above="@+id/activity_login_register"
+            android:layout_centerHorizontal="true"
+            style="@style/Widget.AppCompat.Button.Colored"
+            />
+        <Button
+            android:id="@+id/activity_login_register"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/activity_login_guest"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/Register"
+            style="@style/Widget.AppCompat.Button.Colored"
+            />
+        <Button
+            android:id="@+id/activity_login_guest"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/Sign_in_guest"
+            android:layout_marginBottom="100dp"
+            android:layout_alignParentBottom="true"
+            style="@style/Widget.AppCompat.Button.Colored"
+            />
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_login_sign_in_ui"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        >
+        <EditText
+            android:id="@+id/activity_login_email_input"
+            android:inputType="textEmailAddress"
+            android:hint="@string/Enter_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_centerInParent="true"
+            android:background="#FFF"/>
+        <EditText
+            android:id="@+id/activity_login_password_input"
+            android:inputType="textPassword"
+            android:hint="@string/Enter_password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@id/activity_login_email_input"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:background="#FFF"/>
+        <Button
+            android:id="@+id/activity_login_sign_in_button"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginTop="27dp"
+            android:text="@string/Sign_in"
+            android:layout_below="@id/activity_login_password_input"
+            style="@style/Widget.AppCompat.Button.Colored"
+            />
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_login_register_ui"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        >
+        <EditText
+            android:id="@+id/activity_login_email2_input"
+            android:inputType="textEmailAddress"
+            android:hint="@string/Enter_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_centerInParent="true"
+            android:background="#FFF"/>
+        <Button
+            android:id="@+id/activity_login_register_button"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginTop="27dp"
+            android:text="@string/Register"
+            android:layout_below="@+id/activity_login_email2_input"
+            style="@style/Widget.AppCompat.Button.Colored"
+            />
+    </RelativeLayout>
+    </RelativeLayout>

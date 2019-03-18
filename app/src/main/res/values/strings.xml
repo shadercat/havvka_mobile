@@ -3,5 +3,7 @@
     <string name="Sign_in">Увійти</string>
     <string name="Register">Зареєструватись</string>
     <string name="Sign_in_guest">Увійти як гість</string>
-    <string name="Loading_text">Будь ласка, почекайте поки налаштуються наші милиці...</string>
+    <string name="Loading_text">Будь ласка, зачекайте поки налаштовуються наші милиці...</string>
+    <string name="Enter_email">Електронна пошта</string>
+    <string name="Enter_password">Пароль</string>
 </resources>
