@@ -33,7 +33,7 @@
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
         android:layout_marginTop="15dp"
-        android:text="none"
+        android:text="List (100 items)"
         android:layout_marginBottom="100dp"
         android:layout_alignParentBottom="true"
         />

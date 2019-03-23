@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Mar 18 20:12:26 EET 2019
+#Sun Mar 24 00:44:17 EET 2019
 1.base=C\:\\Users\\haswe\\AndroidStudioProjects\\Havvka_mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY

@@ -228,6 +228,10 @@
         "source": "C:\\Users\\haswe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c1afb314f975f888fcb410e1210bd978\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "C:\\Users\\haswe\\AndroidStudioProjects\\Havvka_mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable_food_test.png.flat",
+        "source": "C:\\Users\\haswe\\AndroidStudioProjects\\Havvka_mobile\\app\\src\\main\\res\\drawable\\food_test.png"
+    },
+    {
         "merged": "C:\\Users\\haswe\\AndroidStudioProjects\\Havvka_mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\haswe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c1afb314f975f888fcb410e1210bd978\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
@@ -528,6 +532,10 @@
         "source": "C:\\Users\\haswe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c1afb314f975f888fcb410e1210bd978\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "C:\\Users\\haswe\\AndroidStudioProjects\\Havvka_mobile\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\haswe\\AndroidStudioProjects\\Havvka_mobile\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\haswe\\AndroidStudioProjects\\Havvka_mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\haswe\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\93113561e67372cc72dc9cc26316c6ad\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
@@ -784,12 +792,12 @@
         "source": "C:\\Users\\haswe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c1afb314f975f888fcb410e1210bd978\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\haswe\\AndroidStudioProjects\\Havvka_mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\haswe\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\93113561e67372cc72dc9cc26316c6ad\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
-    },
-    {
         "merged": "C:\\Users\\haswe\\AndroidStudioProjects\\Havvka_mobile\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\haswe\\AndroidStudioProjects\\Havvka_mobile\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\haswe\\AndroidStudioProjects\\Havvka_mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\haswe\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\93113561e67372cc72dc9cc26316c6ad\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "C:\\Users\\haswe\\AndroidStudioProjects\\Havvka_mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -1398,6 +1406,10 @@
     {
         "merged": "C:\\Users\\haswe\\AndroidStudioProjects\\Havvka_mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\haswe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c1afb314f975f888fcb410e1210bd978\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\haswe\\AndroidStudioProjects\\Havvka_mobile\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_items_list.xml.flat",
+        "source": "C:\\Users\\haswe\\AndroidStudioProjects\\Havvka_mobile\\app\\src\\main\\res\\layout\\activity_items_list.xml"
     },
     {
         "merged": "C:\\Users\\haswe\\AndroidStudioProjects\\Havvka_mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
