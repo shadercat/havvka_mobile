@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 import java.util.List;
-
+// Adapter for ListView (schema: picture, big text, small text)
 public class ItemAdapter extends ArrayAdapter<Item> {
 
     private LayoutInflater inflater;
@@ -22,20 +22,40 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         this.layout = resourse;
         this.inflater = LayoutInflater.from(context);
     }
+    //optimized getView
     public View getView(int position, View convertView, ViewGroup parent)
     {
-        View view = inflater.inflate(this.layout, parent, false);
-
-        ImageView imageView = (ImageView) view.findViewById(R.id.image);
-        TextView nameView = (TextView) view.findViewById(R.id.name);
-        TextView smallDescrView = (TextView) view.findViewById(R.id.smallDescription);
+        ViewHolder viewHolder;
+        if(convertView == null)
+        {
+            convertView = inflater.inflate(this.layout, parent, false);
+            viewHolder = new ViewHolder(convertView);
+            convertView.setTag(viewHolder);
+        }
+        else
+        {
+            viewHolder = (ViewHolder) convertView.getTag();
+        }
 
         Item itemList = food.get(position);
 
-        imageView.setImageResource(itemList.GetImage());
-        nameView.setText(itemList.GetName());
-        smallDescrView.setText(itemList.GetSmallDescr());
+        viewHolder.imageView.setImageResource(itemList.GetImage());
+        viewHolder.nameView.setText(itemList.GetName());
+        viewHolder.smallDescrView.setText(itemList.GetSmallDescr());
 
-        return  view;
+        return  convertView;
+    }
+    private class ViewHolder
+    {
+        final ImageView imageView;
+        final TextView nameView, smallDescrView;
+
+        public ViewHolder(View view)
+        {
+            imageView = (ImageView) view.findViewById(R.id.image);
+            nameView = (TextView) view.findViewById(R.id.name);
+            smallDescrView = (TextView) view.findViewById(R.id.smallDescription);
+        }
+
     }
 }

@@ -16,8 +16,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="shadercat.havvka_mobile.ItemsList" />
+        <activity android:name="shadercat.havvka_mobile.ItemsListActivity" />
         <activity
             android:name="shadercat.havvka_mobile.LoadingActivity"
             android:screenOrientation="portrait" />
@@ -33,6 +34,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="shadercat.havvka_mobile.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
     </application>
 
 </manifest>
